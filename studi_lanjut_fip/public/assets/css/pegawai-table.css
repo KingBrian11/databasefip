@@ -1,0 +1,33 @@
+.table-header th {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.table tbody tr:hover {
+    background-color: #f4f8ff !important;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.table-section {
+    background-color: #e9f1ff !important;
+    color: #1e3c72;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.action-btn {
+    padding: 4px 7px !important;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
